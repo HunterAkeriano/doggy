@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 h1,
@@ -437,4 +438,192 @@ a {
 }
 .dog-title span {
   display: block;
+}
+.dog__content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.dog__content .card {
+  max-width: 360px;
+  text-align: center;
+}
+.dog__content .card h3 {
+  margin-top: 51px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.dog__content .card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #170C04;
+  opacity: 0.6;
+}
+.dog__content .card a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #E27B3A;
+}
+.dog__content .card img {
+  width: 100%;
+  max-width: 100%;
+}
+.dog button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding: 12px 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  border: 0;
+  background: #E27B3A;
+  border-radius: 24px;
+  color: #FFFFFF;
+}
+
+.gallery {
+  margin-top: 130px;
+}
+.gallery__content {
+  display: flex;
+  justify-content: space-between;
+}
+.gallery__content-left {
+  width: 48%;
+}
+.gallery__content-left h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32.25px;
+  line-height: 45px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #170C04;
+}
+.gallery__content-left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #170C04;
+  opacity: 0.6;
+}
+.gallery__content-left .card-block {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery__content-left .card-block img:nth-child(3),
+.gallery__content-left .card-block img:nth-child(4) {
+  margin-top: 20px;
+}
+.gallery__content-right {
+  width: 48%;
+  pointer-events: none;
+}
+.gallery__content-right img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.swipersblock {
+  margin-top: 120px;
+  overflow: hidden;
+}
+.swipersblock-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 45px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  color: #170C04;
+}
+.swipersblock .swiper-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 52px;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 30px;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  margin: 20px auto;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #170C04;
+  opacity: 0.7;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide .text {
+  text-align: center;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide .text h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.swipersblock .swiper-container .swiper-wrapper .swiper-slide .text h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #170C04;
+  opacity: 0.6;
+}
+.swipersblock .swiper-container .swiper-button-next {
+  position: absolute;
+  right: -100px;
+  top: 60%;
+  transform: rotate(90deg);
+}
+.swipersblock .swiper-container .swiper-button-next::after {
+  content: "➞";
+  color: black;
+}
+.swipersblock .swiper-container .swiper-button-prev {
+  left: 572px;
+  top: 40%;
+  transform: rotate(90deg);
+}
+.swipersblock .swiper-container .swiper-button-prev::after {
+  content: "➞";
+  transform: rotate(180deg);
+  color: black;
 }/*# sourceMappingURL=style.css.map */

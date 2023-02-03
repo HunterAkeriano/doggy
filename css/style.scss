@@ -490,6 +490,213 @@ a{
         }
     }
     &__content{
-        
+        margin-top: 50px;
+       display: flex;
+       justify-content: space-between;
+       .card{
+        max-width: 360px;
+        text-align: center;
+        h3{
+            margin-top: 51px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        p{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+
+            color: #170C04;
+
+            opacity: 0.6;
+        }
+        a{
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #E27B3A;
+        }
+        img{
+            width: 100%;
+            max-width: 100%;
+        }
+       }
+      
+
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 12px 30px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        border: 0;
+        background: #E27B3A;
+border-radius: 24px;
+
+        color: #FFFFFF;
+       }
+}
+
+.gallery{
+    margin-top: 130px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 48%;
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 32.25px;
+                line-height: 45px;
+                /* identical to box height, or 140% */
+
+                text-align: center;
+
+                color: #170C04;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+
+                text-align: center;
+
+                color: #170C04;
+
+                opacity: 0.6;
+            }
+            .card-block{
+                margin-top: 58px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                img:nth-child(3),
+                img:nth-child(4){
+                    margin-top: 20px;
+                }
+            }
+        };
+        &-right{
+            width: 48%;
+            pointer-events: none;
+            img{
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.swipersblock{
+    margin-top: 120px;
+    overflow: hidden;
+    &-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32.25px;
+        line-height: 45px;
+        /* identical to box height, or 140% */
+
+        text-align: center;
+
+        color: #170C04;
+    }
+    .swiper-container{
+       
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 52px;
+        .swiper-wrapper{
+            .swiper-slide{
+                box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+                border-radius: 10px;
+                background-color: #FFFFFF;
+                padding: 30px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                    margin: 20px auto;
+                }
+                p{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* or 150% */
+
+                    text-align: center;
+
+                    color: #170C04;
+
+                    opacity: 0.7;
+                }
+                .text{
+                    text-align: center;
+                    h4{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    h5{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #170C04;
+
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+        .swiper-button-next{
+            position: absolute;
+            right: -100px;
+            top: 60%;
+            transform: rotate(90deg);
+        }
+        .swiper-button-next::after{
+            content: '\279E';
+            color: black;
+        }
+        .swiper-button-prev{
+            left: 572px;
+            top: 40%;
+            transform: rotate(90deg);
+        }
+        .swiper-button-prev::after{
+            content: '\279E';
+            transform: rotate(180deg);
+            color: black;
+        }
     }
 }
