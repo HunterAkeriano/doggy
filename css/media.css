@@ -236,3 +236,26 @@
         width: 100%;
     }
 }
+
+
+/* футер */
+
+@media(max-width: 1075px){
+    footer{
+        background: black;
+        padding-top: 50px;
+    }
+    footer .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer .footer .car{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    footer .footer .car .pos-logo{
+        position: static;
+        margin-bottom: 20px;
+    }
+}
