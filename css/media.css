@@ -219,3 +219,20 @@
         transform: rotate(0deg);
     }
 }
+
+
+/* перед футером */
+
+@media(max-width: 950px){
+    .send .wrapper{
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+    .send .wrapper-right .block {
+        margin-top: 20px;
+    }
+    .send .wrapper-right,
+    .send .wrapper-left{
+        width: 100%;
+    }
+}

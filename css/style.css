@@ -626,4 +626,73 @@ a {
   content: "➞";
   transform: rotate(180deg);
   color: black;
+}
+
+.send {
+  margin-top: 100px;
+}
+.send .wrapper {
+  background: #2E96FF;
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 94%, 0% 100%);
+          clip-path: polygon(0 10%, 100% 0, 100% 94%, 0% 100%);
+  border-radius: 10px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.send .wrapper-left {
+  width: 50%;
+}
+.send .wrapper-left h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+.send .wrapper-left h3 span {
+  display: block;
+}
+.send .wrapper-left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.send .wrapper-right {
+  width: 50%;
+}
+.send .wrapper-right .block {
+  display: flex;
+}
+.send .wrapper-right .block input {
+  padding: 15px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 41px;
+  /* identical to box height, or 254% */
+  display: flex;
+  align-items: center;
+  color: #170C04;
+  width: 80%;
+}
+.send .wrapper-right .block button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 41px;
+  color: #FFFFFF;
+  background: #E27B3A;
+  border: 0;
+  width: 20%;
+  border-radius: 0px 10px 10px 0px;
 }/*# sourceMappingURL=style.css.map */
