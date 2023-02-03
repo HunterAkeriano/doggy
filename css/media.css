@@ -1,0 +1,155 @@
+@media(max-width: 1250px){
+    .content__content .right-content img{
+        width: 80%;
+        max-width: 100%;
+    }
+    .food{
+        margin-top: 300px;
+    }
+}
+
+@media(max-width:1000px){
+    .content__content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content__content .left-content {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .content__content .right-content img {
+        display: block;
+        margin: 0 auto;
+    }
+    .food{
+        margin-top: 150px;
+    }
+    .right-bgc{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .content__content .left-content h1{
+        font-size: 25px;
+    }
+    .content__content .left-content .content-btn .buy{
+        font-size: 10px;
+        padding: 5px 15px;
+
+    }
+    .content__content .left-content .content-btn{
+        margin-top: 10px;
+    }
+    .food__content .card{
+        margin: 20px 0px;
+    }
+    .food{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 1170px){
+    .food__content{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .food__content .card{
+        margin: 40px 0px;
+    }
+}
+
+
+
+/* бургер */
+@media(max-width: 800px){
+    .right-bgc{
+        display: none;
+    }
+    .header__content{
+        position: relative;
+    }
+    .header__content .header__nav{
+        position: absolute;
+        top: 50px;
+        flex-direction: column;
+        width: 100%;
+       text-align: center;
+       transition: 0.3s;
+       left: -200%;
+       min-height: 100vh;
+       height: 100%;
+    }
+    .header__content .header__nav.active{
+        padding: 10px 0px;
+        left: 0;
+        height: 100%;
+        background-color: white;
+        z-index: 20;
+        overflow: scroll;
+    }
+    .header__content .header__nav.active ul{
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+       text-align: center;
+    }
+     .header__content .header__nav.active ul li{
+        margin: 20px  0;
+        
+     }
+}
+
+
+
+/* карточки */
+@media(max-width:1150px){
+    .products__top,
+    .products__bottom{
+        flex-direction: column;
+    }
+    .products__top img{
+       display: block;
+       margin: 0 auto;
+       width: 100%;
+       max-width: 100%;
+    }
+    .products__top .left{
+        margin: 20px 0px;
+        margin-bottom: 50px;
+    }
+    .products__bottom .card{
+        margin: 0 auto;
+    }
+    .products__bottom .card:nth-child(2){
+        margin: 50px auto;
+    }
+    .start__content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .start__content-left img{
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width: 600px){
+    .products{
+        margin-top: 50px;
+    }
+    .products__bottom .card img{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:500px){
+    .start__content-right h3{
+        font-size: 22px;
+        line-height: 22px;
+        margin: 15px 0px;
+    }
+    .start__content-right .btn .yellow{
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+}
